@@ -1,0 +1,17 @@
+@import '../../../bootstrap-5.2.0-beta1/scss/bootstrap.scss';
+
+#navbar {
+    background-color: $dark;
+    color: $light;
+}
+
+.card {
+    a{
+        color: $light;
+    }
+
+    @extend #navbar;
+}
+
+
+
